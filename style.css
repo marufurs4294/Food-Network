@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+/* Top-Banner-Section */
+
+.top-banner-section{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(images/top-banner.avif) ;
+    background-size: cover;
+    height: 100vh;
+}
+.top-banner-content{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+.top-content h1{
+    font-size: 50px;
+    color: aliceblue;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    
+
+}
+.top-content h3{
+    font-size: 35px;
+    color: aliceblue;
+    
+}
