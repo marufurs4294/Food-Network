@@ -8,13 +8,13 @@ img{
 }
 h1{
     font-size: 50px;
-    color: aliceblue;
     padding-bottom: 30px;
 }
 p{
-    font-size: 1.5em;
-    color: #808080;
-    padding-bottom:  50px;
+    font-size: 22px;
+    color: gray;
+    padding-bottom: 50px;
+    line-height: 35px;
 }
 .half-width{
     width:45%;
@@ -36,6 +36,14 @@ a{
     margin-top: 20px;
     text-decoration: none;
 }
+.primary-content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    
+}
+
 /* Top-Banner-Section */
 
 .top-banner-section{
@@ -66,14 +74,20 @@ a{
 .mid-section{
     padding: 50px;
 }
-.mid-content{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 100%;
-    
-}
+
 .mid-content h1{
     color: rgb(82, 78, 78);
     
+}
+/* About-Section */
+.about-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+
+}
+.about-image{
+    padding: 83px;
+    margin: 40px;
+    width: 300px;
+    background-size: cover;
 }
