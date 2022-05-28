@@ -151,3 +151,26 @@ color: #524E4E;
 .count-content p{
     padding: 5px;
 }
+
+/* Footer Section */
+.footer-section {
+    text-align: center;
+    background: rgb(1, 0, 0);
+}
+.footer-content {
+    padding: 20px 0 30px 0;
+}
+.footer-content h1{
+    color: #beb9b9;
+    padding-bottom: 15px;
+}
+.footer-content p{
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+.footer-content .copyright{
+font-size: 20px;
+    color: rgb(255, 252, 252);
+    font-weight: 700; 
+    letter-spacing: 2px;          
+}
