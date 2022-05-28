@@ -1,7 +1,41 @@
+/* Multiple Useable Css */
 *{
     margin: 0;
+    font-family: sans-serif, 'Arimo';
 }
-
+img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+p{
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:  50px;
+}
+.half-width{
+    width:45%;
+    padding: 20px;
+}
+.flexible{
+    display: flex;
+}
+.orange-color{
+    color: orange;
+}
+a{
+    font-size: 20px;
+    font-weight: bold;
+    color:white ;
+    background: linear-gradient(to right, orange, tomato);
+    padding: 15px 40px;
+    border-radius: 35px;
+    margin-top: 20px;
+    text-decoration: none;
+}
 /* Top-Banner-Section */
 
 .top-banner-section{
@@ -21,11 +55,25 @@
     color: aliceblue;
     padding-bottom: 20px;
     text-transform: uppercase;
-    
-
-}
+ }
 .top-content h3{
     font-size: 35px;
     color: aliceblue;
+    
+}
+
+/* Mid Section */
+.mid-section{
+    padding: 50px;
+}
+.mid-content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    
+}
+.mid-content h1{
+    color: rgb(82, 78, 78);
     
 }
