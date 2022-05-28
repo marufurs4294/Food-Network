@@ -89,5 +89,20 @@ a{
     padding: 83px;
     margin: 40px;
     width: 300px;
-    background-size: cover;
+}
+
+/* Recipe Section */
+.recipe-section{
+   
+}
+.recipe-content{
+    margin: 0 auto;
+    text-align: center;
+    width: 55%;
+}
+.recipe-content h1{
+color: #524E4E;
+}
+.recipe-content p{
+    font-size: 21px;
 }
